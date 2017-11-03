@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>WebApplication</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="HTML, CSS, JAVASCRIPTs">
+		<link rel="stylesheet" href="homeStyle.css">
+		<!--<style>
+			h1 {
+				font-size : 50px;
+				font-family : verdana;
+				color : red;
+				text-align : center;
+				}
+			h2 {
+				color: red;
+				text-transform:uppercase;
+				text-decoration:underline;
+				font-style:italic;
+				}
+			#h21 {
+				border:2px solid tomato;
+				padding : 20px;
+				margin : 60px;
+				}
+			body {
+				background-color:powderblue;
+				}
+			table{
+				width:50%;
+			}	
+			table , th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+				}
+			th, td {
+				padding: 10px;
+				text-align: left;
+				}			
+			
+			tr:nth-child(even){
+				background-color:#f2f2f2;
+			}
+			tr:hover{
+				background-color:yellow;
+			}
+			th{
+				background-color:green;
+				color:white;
+			}
+			#hor_nav{
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+				background-color:#333;
+			}
+			#hor_nav li{
+				float:left;
+			}
+			#hor_nav li a{
+				display:block;
+				color:white;
+				padding:14px 16px;
+				text-decoration:none;
+				border-width:0px 
+				
+			}
+			div {
+				color: white;
+				padding:10px;
+				background-color:black;
+				}
+			a:link {color:red;
+					text-decoration:none;
+					border:2px solid black;
+					padding:5px;
+				}
+			a:visited{ color:green;
+						text-decoration:none;
+						background-color:orange;
+				}
+			a:hover{ color:hotpink;
+					 text-decoration:underline;
+					 background-color:gray;
+				}
+			a:active{ color:blue;
+					  text-decoration:underline;
+				}
+				/* This is comment in css*/
+			ol{
+				background:pink;
+				padding:20px;
+			}
+			ol li {
+				background:#ffe5e5;
+				padding:5px;
+				margin-left:35px;
+			}
+			#ul2{
+				background:#3399ff;
+				padding:20px;
+			}
+			#ul2 li{
+				margin:5px;
+				background:#cce5ff;
+			}
+			img{
+				opacity:0.5;
+			}
+			img:hover{
+				opacity:1.0;
+			}
+			#ver_nav{
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				width:200px;
+				background-color:#f1f1f1;
+			}
+			#ver_nav a{
+				display:block;
+				color:#000;
+				padding:8px 16px;
+				text-decoration:none;
+				border-width:0px ;
+			}
+			#ver_nav a:hover{
+				color:white;
+				background-color:#555;
+			}
+			.dropbtn{
+				background-color:#4caf50;
+				color:white;
+				padding:16px;
+				font-size:16px;
+				border:none;
+				cursor:pointer;
+				border-width:0px;
+			}
+			.dropdown{
+				position:relative;
+				display:inline-block;
+				border :0px solid green;
+			}
+			.dropdown-content{
+				display:none;
+				position:absolute;
+				background-color:#f9f9f9;
+				min-width:160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index:1;
+			}
+			.dropdown-content a{
+				color:black;
+				padding:12px 16px;
+				text-decoration:none;
+				display:block;
+				border-width:0px;
+			}
+			.dropdown-content a:hover{
+				background-color:#f1f1f1;
+				border-width:0px;
+			}
+			.dropdown:hover .dropdown-content{
+				display:block;
+			}
+			.dropdown:hover .dropbtn{
+				background-color:#3e8e41;
+			}
+			input[type=text]:focus{
+				background-color:yellow;
+			}
+		</style>-->
+		<script>
+		    function validateForm(){
+			    var x = document.forms["myForm"]["lname"].value;
+				if (x == ""){
+				    alert("Last name must be filled out");
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		
+		<h1>This is a heading </h1>
+		<h2 id="h21">This is a heading </h2>
+		<h3>This is a heading </h3>
+		<h4>This is a heading </h4>
+		<h5>This is a heading </h5>
+		<h6>This is a heading </h6>
+		<hr>
+
+		<p style="font-size:200%" title="parag">This is a paragraph </p>
+		<hr>
+		<pre>
+			this is pre formatted paragraph
+			hence the spaces remains as it is in browser.
+		</pre>
+		<hr>
+
+		<a href="https://www.google.com" target="_blank" >google.com</a><br>
+		<hr>
+
+		<img src="thought.jpg" alt="thought.jpg" width="300" height="200"> 
+		<hr>
+
+		<h2> HTML formatting:-</h2> 
+		<b> This text is bold </b><br>
+		<strong> This text is strong </strong><br>
+		<i> This text is italic </i><br>
+		<em> This text is emphasized </em><br>
+		<p> This is <mark>marked</mark> text </p>
+		<p> This is <del>deleted</del> text </p>
+		<p> This is <ins>inserted</ins> text </p>
+		<p> This is <sub>subscripted</sub> text </p>
+		<p> This is <sup>superscripted</sup> text </p>
+		<hr>		
+
+		<h2> HTML quotation:-</h2>
+		<p> This text has <q> quatation </q> </p>
+		<p> The <abbr title="World Health Organization">WHO</abbr> is founded in 1948 </p>
+		<bdo dir="rtl">This text is written from right to left</bdo>
+		<hr>
+	
+		<!-- wright your comments here-->
+		
+		<h2> HTML Table:-</h2>
+		<table>
+			<caption>Ages of Sport Players</caption>
+			<tr>
+				<th>First Name</th> 
+				<th>Second Name</th>	
+				<th>Age</th>	
+			</tr>
+			<tr>
+				<td>Sachin</td> 
+				<td>Tendulkar</td>	
+				<td>50</td>	
+			</tr>
+			<tr>
+				<td>Virat</td> 
+				<td>Kohli</td>	
+				<td>30</td>	
+			</tr>
+			<tr>
+				<td colspan="2">M.S.Dhoni</td> 	
+				<td rowspan="2">40</td>	
+			</tr>
+			<tr>
+				<td>Suresh</td>
+				<td>Raina</td>
+			</tr>
+		</table>
+		<hr>
+		
+		<h2> HTML Lists:- </h2>
+		<h3> Unordered List </h3>
+		<ul type="disc" id="ul2">         <!--others circle, square, none-->
+			<li>Milk</li>
+			<li>Tea</li>
+			<li>Coffee</li>
+		</ul>
+		<h3> Ordereed List </h3>
+		<ol type="1">         <!--others a,A,i,I,-->
+			<li>Milk</li>
+			<li>Tea</li>
+			<li>Coffee</li>
+		</ol>
+		<h3> Description List</h3>
+		<dl>
+			<dt>Coffee</dt>
+			<dd>- Black Hot Drink</dd>
+			<dt>Milk</dt>
+			<dd>- White Cold Drink</dd>
+		</dl>
+		<h3> Nested List </h3>
+		<ul>
+			<li>Coffee</li>
+			<li>Tea</li>
+			<ul>
+				<li>Green Tea</li>
+				<li>Black Tea</li>
+			</ul>
+			<li>Milk</li>
+		</ul>
+		<h3> Horizontal List</h3>
+		<ul id="hor_nav">
+			<li><a href="#home" class="a1">Home</a></li>
+			<li><a href="#news" class="a1">News</a></li>
+			<li><a href="#career" class="a1">career</a></li>
+			<li><a href="#about" class="a1">About</a></li>
+		</ul>
+		<hr>	
+	
+		<div>
+		<h3> Div Tag</h3>
+		<p> This is example of div tag. This is example of div tag.This is example of div tag.
+			 This is example of div tag.This is example of div tag. This is example of div tag.This is example of div tag. This is example of div tag.
+ 			This is example of div tag.This is example of div tag. This is example of div tag.This is example of div tag. This is example of div tag.		
+		</p>
+		</div>
+		<hr>
+
+		<h3> This is example of Use of <span style="color:red">span tag.</span></h3>
+		<hr>
+
+		<h2> HTML Iframe</h2>
+		<iframe src="home.html" height="200" width="100%" style="border:2px solid black;"></iframe>
+		<hr>	
+
+		<h2> HTML Computercode </h2>
+		<p> Save the document by presing <kbd>ctrl+S</kbd></p>
+		<p> It will display &euro;</p>
+		<hr>
+
+		<h2>dropdown button</h2>
+		<div class="dropdown">
+			<button class="dropbtn">dropdown</button>
+			<div class="dropdown-content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+		</div>
+		<hr>
+		
+		<h2>HTML Forms</h2>
+		<form name="myForm" onsubmit="return validateForm()"method="post">
+			<fieldset>
+				<legend>Personal Informatiom : </legend>	
+				First Name*:<input type="text" value="parag" required><br><br>
+				Last Name:<input type="text" name="lname"><br><br>
+				Gender:<input type="radio" name="gender" checked>Male
+					<input type="radio" name="gender">Female
+					<input type="radio" name="gender">Other<br><br>	
+				Address: <textarea rows="3" column="20"></textarea>
+			</fieldset><br>
+			Select Course:
+			<select>
+				<option>Physics</option>
+				<option>Chemistry</option>
+				<option>Math</option>
+			</select><br><br>
+			<button type="button" onclick="alert('hello')">Click me</button><br><br>
+			Password:<input type="password"><br>
+			Documents: <input type="checkbox">Nationality
+				   <input type="checkbox">Domecile<br>
+			Birthday: <input type="date"><br>
+			E-mail: <input type="email"><br>
+			Duration of course: <input type="number">years.<br>	
+			<input type="submit" value="Submit">
+			<input type="reset">
+		</form>																					
+		<hr>
+		
+		<h2>vertical navigation bar</h2>
+		<ul id="ver_nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">news</a></li>
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#about">about</a></li>
+		</ul>
+		<hr>
+		
+		
+	</body>
+</html>
